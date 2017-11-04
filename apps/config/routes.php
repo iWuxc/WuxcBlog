@@ -18,3 +18,5 @@ $router -> add('/admin/:controller/:action/:params', [
     'controller' => 1,
     'action' => 2,
 ]);
+
+return $router;

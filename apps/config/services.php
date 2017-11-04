@@ -7,12 +7,10 @@
  * @link www.wuxceng.cn
  */
 use Phalcon\Di\FactoryDefault;
-use Phalcon\Mvc\Url as UrlResolver;
 use Phalcon\Events\Manager as EventsManager;
 use Phalcon\Events\Event;
 use Phalcon\Db\Profiler as DbProfile;
-use Phalcon\Mvc\Model\Metadata\Memory as MetaDataAdapter;
-use Phalcon\Mvc\View\Engine\Volt as VoltEngine;
+use Phalcon\Mvc\Model\Manager as ModelsManager;
 use Phalcon\Session\Adapter\Files as SessionAdapter;
 use Phalcon\Flash\Direct as Flash;
 
@@ -82,7 +80,7 @@ $di -> setShared('db', function() use($di) {
     $profiler = $di -> get('profiler');
     $eventsManager -> attach('db',function(Event $event, $connection) use($profiler, $config, $di){
         if($event -> getType() == 'beforeQuery'){
-            //在sql发送大数据库前气动分析
+            //在sql发送大数据库前启动分析
             $profiler -> startProfle($connection -> getSQLStatement());
         }
         if($event -> getType() == 'afterQuery'){
@@ -100,5 +98,41 @@ $di -> setShared('db', function() use($di) {
         }
     });
     $connection -> setEventsManager($eventsManager);
+    return $connection;
+});
 
+/**
+ * DI注册modelsManager服务
+ */
+$di -> setShared('modelsManager', function() use($di){
+    return new ModelsManager();
+});
+
+/**
+ * DI注册日志服务
+ */
+$di -> setShared('logger', function() use($di){
+    $logger = \Wuxc\Apps\Core\PhalBaseLogger::getInstance();
+    return $logger;
+});
+
+/**
+ * DI注册缓存服务
+ */
+$di -> setShared('cache', function() use($config){
+    return new \Phalcon\Cache\Backend\File(new \Phalcon\Cache\Frontend\Output(), array(
+        'cacheDir' => $config -> application -> cache_path
+    ));
+});
+
+/**
+ * Register the session flash service with the Twitter Bootstrap classes
+ */
+$di->set('flash', function () {
+    return new Flash([
+        'error'   => 'alert alert-danger',
+        'success' => 'alert alert-success',
+        'notice'  => 'alert alert-info',
+        'warning' => 'alert alert-warning'
+    ]);
 });

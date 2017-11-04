@@ -30,7 +30,7 @@ return new \Phalcon\Config(
                 //模块在URL中的pathinfo路径名
                 'module_pathinfo'   =>  '/',
                 //控制器路径
-                'controllers'   =>  APP_DIR . '/modules/frontend/controllers/',
+                'backend'   =>  APP_DIR . '/modules/frontend/backend/',
                 //视图路径
                 'views' =>  APP_DIR . '/modules/frontend/views/',
                 //是否实时编译模板
@@ -45,7 +45,7 @@ return new \Phalcon\Config(
                 //模块在URL中的pathinfo路径名
                 'module_pathinfo'   =>  '/admin/',
                 //控制器路径
-                'controllers'   =>  APP_DIR . '/modules/backend/controllers/',
+                'backend'   =>  APP_DIR . '/modules/backend/backend/',
                 //视图路径
                 'views' =>  APP_DIR . '/modules/backend/views/',
                 //是否实时编译模板

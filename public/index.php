@@ -42,6 +42,7 @@ try {
             'className' => 'Wuxc\\Apps\\Frontend\\FrontendModule',
             'path'      =>  APP_DIR . '/modules/frontend/FrontendModule.php'
         ],
+
         'backend' => [
             'className' => 'Wuxc\\Apps\\Backend\\BackendModule',
             'path'      =>  APP_DIR . '/modules/backend/BackendModule.php'
@@ -50,6 +51,16 @@ try {
 
     echo $application->handle()->getContent();
 } catch (\Exception $e) {
+    //$log = array(
+    //    'file' => $e -> getFile(),
+    //    'line' => $e -> getLine(),
+    //    'code' => $e -> getCode(),
+    //    'msg'  => $e -> getMessage(),
+    //    'trace' => $e -> getTraceAsString(),
+    //);
+    //$date = date('Ymd');
+    //$logger = new \Phalcon\Logger\Adapter\File(BASE_DIR . "/apps/cacge/logs/crash_{$date}.log");
+    //$logger -> error(json_encode($logger));
     echo $e->getMessage() . '<br>';
     echo '<pre>' . $e->getTraceAsString() . '</pre>';
 }
