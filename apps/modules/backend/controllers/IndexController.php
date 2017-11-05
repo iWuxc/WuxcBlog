@@ -11,9 +11,20 @@ namespace Wuxc\Apps\Backend\Controllers;
 
 use Phalcon\Mvc\Controller;
 
-class IndexController extends Controller{
+class IndexController extends Controller {
 
+    /**
+     * 控制面板
+     */
     public function indexAction(){
-        echo 1111;exit;
+
     }
+
+    /**
+     * 404页面
+     */
+    public function nofonundAction(){
+        return $this -> response -> setHeader('status', '404 Not Found');
+    }
+
 }
