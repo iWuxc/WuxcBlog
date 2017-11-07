@@ -47,12 +47,14 @@ class BackendModule implements ModuleDefinitionInterface{
                     switch($exception -> getCode()) {
                         case \Phalcon\Dispatcher::EXCEPTION_HANDLER_NOT_FOUND:
                             $dispatcher -> forward(array(
+                                'namespace' => '\\Wuxc\\Apps\\Backend\\Controllers',
                                 'controller' => 'Index',
                                 'action'    => 'notfound'
                             ));
                             return false;
                         case \Phalcon\Dispatcher::EXCEPTION_ACTION_NOT_FOUND:
                             $dispatcher -> forward(array(
+                                'namespace' => '\\Wuxc\\Apps\\Backend\\Controllers',
                                 'controller' => 'Index',
                                 'action'    => 'notfound'
                             ));

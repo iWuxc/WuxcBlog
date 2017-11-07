@@ -30,7 +30,7 @@ return new \Phalcon\Config(
                 //模块在URL中的pathinfo路径名
                 'module_pathinfo'   =>  '/',
                 //控制器路径
-                'backend'   =>  APP_DIR . '/modules/frontend/backend/',
+                'backend'   =>  APP_DIR . '/modules/frontend/controllers/',
                 //视图路径
                 'views' =>  APP_DIR . '/modules/frontend/views/',
                 //是否实时编译模板
@@ -45,11 +45,11 @@ return new \Phalcon\Config(
                 //模块在URL中的pathinfo路径名
                 'module_pathinfo'   =>  '/admin/',
                 //控制器路径
-                'backend'   =>  APP_DIR . '/modules/backend/backend/',
+                'backend'   =>  APP_DIR . '/modules/backend/controllers/',
                 //视图路径
                 'views' =>  APP_DIR . '/modules/backend/views/',
                 //是否实时编译模板
-                'is_compiled'   =>  true,
+                'is_compiled'   =>  false,
                 //编译模板路径
                 'compiled_path' =>  APP_DIR . '/cache/volt/backend/',
                 //后台静态资源

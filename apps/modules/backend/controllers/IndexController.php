@@ -17,14 +17,18 @@ class IndexController extends Controller {
      * 控制面板
      */
     public function indexAction(){
-
+        $this -> view -> pick('index/index');
     }
 
     /**
      * 404页面
      */
-    public function nofonundAction(){
+    public function notfoundAction(){
         return $this -> response -> setHeader('status', '404 Not Found');
+    }
+
+    public function testAction(){
+
     }
 
 }

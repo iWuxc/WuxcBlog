@@ -12,7 +12,7 @@
 <![endif]-->
 
 <link rel="shortcut icon" href="favicon.ico">
-<link href="{{ static_url('css/bootstrap.min.css?v=3.3.5') }}" rel="stylesheet">
-<link href="{{ static_url('css/font-awesome.min.css?v=4.4.0') }}" rel="stylesheet">
-<link href="{{ static_url('css/animate.min.css') }}" rel="stylesheet">
-<link href="{{ static_url('css/style.min.css?v=4.0.0') }}" rel="stylesheet">
+<link href="<?= $this->url->getStatic('css/bootstrap.min.css?v=3.3.5') ?>" rel="stylesheet">
+<link href="<?= $this->url->getStatic('css/font-awesome.min.css?v=4.4.0') ?>" rel="stylesheet">
+<link href="<?= $this->url->getStatic('css/animate.min.css') ?>" rel="stylesheet">
+<link href="<?= $this->url->getStatic('css/style.min.css?v=4.0.0') ?>" rel="stylesheet">
