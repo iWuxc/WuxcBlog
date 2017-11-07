@@ -1,13 +1,598 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d83af362-a30b-459c-8740-c16bc72499f7" name="Default" comment="后台首页视图">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/cache/volt/backend/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/cache/volt/frontend/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/modules/backend/views/index.volt" />
+    <list default="true" id="d83af362-a30b-459c-8740-c16bc72499f7" name="Default" comment="添加视图控制层和静态文件">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/fonts/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/fonts/TaurusNormal.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/fonts/TaurusNormal.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/fonts/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/fonts/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/fonts/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/fonts/fontawesome-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/404/left.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/404/right.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/arclist/1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/arclist/10.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/arclist/11.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/arclist/12.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/arclist/13.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/arclist/14.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/arclist/15.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/arclist/16.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/arclist/17.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/arclist/18.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/arclist/19.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/arclist/2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/arclist/20.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/arclist/21.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/arclist/22.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/arclist/23.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/arclist/24.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/arclist/25.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/arclist/26.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/arclist/27.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/arclist/28.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/arclist/29.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/arclist/3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/arclist/30.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/arclist/31.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/arclist/32.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/arclist/33.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/arclist/34.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/arclist/35.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/arclist/36.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/arclist/37.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/arclist/38.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/arclist/39.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/arclist/4.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/arclist/40.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/arclist/41.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/arclist/42.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/arclist/43.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/arclist/44.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/arclist/45.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/arclist/46.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/arclist/47.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/arclist/48.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/arclist/49.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/arclist/5.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/arclist/50.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/arclist/51.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/arclist/52.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/arclist/53.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/arclist/54.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/arclist/55.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/arclist/56.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/arclist/57.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/arclist/58.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/arclist/59.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/arclist/6.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/arclist/60.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/arclist/61.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/arclist/62.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/arclist/63.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/arclist/64.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/arclist/65.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/arclist/66.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/arclist/67.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/arclist/68.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/arclist/69.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/arclist/7.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/arclist/70.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/arclist/71.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/arclist/72.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/arclist/73.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/arclist/74.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/arclist/75.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/arclist/8.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/arclist/9.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/backtop.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/banner/banner_01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/banner/banner_02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/banner/banner_03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/baoman/baoman_01.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/baoman/baoman_02.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/browser.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/excerpt.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/10.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/101.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/102.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/103.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/104.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/105.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/106.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/107.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/108.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/109.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/11.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/110.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/12.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/13.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/14.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/15.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/16.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/17.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/18.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/19.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/20.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/21.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/22.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/23.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/24.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/25.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/26.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/27.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/28.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/29.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/30.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/31.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/32.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/33.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/34.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/35.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/36.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/37.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/38.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/39.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/40.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/41.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/42.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/43.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/44.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/45.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/46.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/47.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/48.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/49.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/50.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/51.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/52.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/53.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/54.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/55.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/56.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/57.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/58.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/59.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/60.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/61.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/62.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/63.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/64.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/65.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/66.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/67.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/68.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/69.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/70.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/71.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/72.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/73.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/74.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/75.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/76.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/77.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/78.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/79.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/80.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/81.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/82.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/83.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/84.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/85.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/86.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/87.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/88.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/89.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/90.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/91.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/92.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/93.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/94.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/95.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/96.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/97.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/98.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/face/99.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/icon/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/icon/favicon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/icon/icon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/news-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/occupying.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/snow/snow0.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/snow/snow1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/snow/snow2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/snow/snow3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/images/weixin.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/attachment/fileTypeImages/icon_chm.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/attachment/fileTypeImages/icon_default.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/attachment/fileTypeImages/icon_doc.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/attachment/fileTypeImages/icon_exe.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/attachment/fileTypeImages/icon_jpg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/attachment/fileTypeImages/icon_mp3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/attachment/fileTypeImages/icon_mv.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/attachment/fileTypeImages/icon_pdf.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/attachment/fileTypeImages/icon_ppt.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/attachment/fileTypeImages/icon_psd.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/attachment/fileTypeImages/icon_rar.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/attachment/fileTypeImages/icon_txt.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/attachment/fileTypeImages/icon_xls.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/attachment/images/alignicon.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/attachment/images/alignicon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/attachment/images/bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/attachment/images/file-icons.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/attachment/images/file-icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/attachment/images/icons.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/attachment/images/icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/attachment/images/image.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/attachment/images/progress.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/attachment/images/success.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/attachment/images/success.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/background/images/bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/background/images/success.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/charts/images/charts0.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/charts/images/charts1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/charts/images/charts2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/charts/images/charts3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/charts/images/charts4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/charts/images/charts5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/emotion/images/0.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/emotion/images/bface.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/emotion/images/cface.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/emotion/images/fface.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/emotion/images/jxface2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/emotion/images/neweditor-tab-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/emotion/images/tface.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/emotion/images/wface.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/emotion/images/yface.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/image/images/alignicon.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/image/images/bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/image/images/icons.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/image/images/icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/image/images/image.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/image/images/progress.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/image/images/success.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/image/images/success.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/scrawl/images/addimg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/scrawl/images/brush.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/scrawl/images/delimg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/scrawl/images/delimgH.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/scrawl/images/empty.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/scrawl/images/emptyH.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/scrawl/images/eraser.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/scrawl/images/redo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/scrawl/images/redoH.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/scrawl/images/scale.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/scrawl/images/scaleH.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/scrawl/images/size.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/scrawl/images/undo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/scrawl/images/undoH.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/table/dragicon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/template/images/bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/template/images/pre0.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/template/images/pre1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/template/images/pre2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/template/images/pre3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/template/images/pre4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/video/images/bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/video/images/center_focus.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/video/images/file-icons.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/video/images/file-icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/video/images/icons.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/video/images/icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/video/images/image.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/video/images/left_focus.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/video/images/none_focus.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/video/images/progress.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/video/images/right_focus.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/video/images/success.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/video/images/success.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/wordimage/fClipboard_ueditor.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/wordimage/imageUploader.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/lang/en/images/addimage.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/lang/en/images/alldeletebtnhoverskin.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/lang/en/images/alldeletebtnupskin.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/lang/en/images/background.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/lang/en/images/button.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/lang/en/images/copy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/lang/en/images/deletedisable.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/lang/en/images/deleteenable.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/lang/en/images/listbackground.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/lang/en/images/localimage.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/lang/en/images/music.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/lang/en/images/rotateleftdisable.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/lang/en/images/rotateleftenable.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/lang/en/images/rotaterightdisable.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/lang/en/images/rotaterightenable.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/lang/en/images/upload.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/lang/zh-cn/images/copy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/lang/zh-cn/images/localimage.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/lang/zh-cn/images/music.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/lang/zh-cn/images/upload.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/themes/default/images/anchor.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/themes/default/images/arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/themes/default/images/arrow_down.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/themes/default/images/arrow_up.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/themes/default/images/button-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/themes/default/images/cancelbutton.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/themes/default/images/charts.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/themes/default/images/cursor_h.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/themes/default/images/cursor_h.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/themes/default/images/cursor_v.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/themes/default/images/cursor_v.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/themes/default/images/dialog-title-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/themes/default/images/filescan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/themes/default/images/highlighted.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/themes/default/images/icons-all.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/themes/default/images/icons.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/themes/default/images/icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/themes/default/images/loaderror.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/themes/default/images/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/themes/default/images/lock.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/themes/default/images/neweditor-tab-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/themes/default/images/pagebreak.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/themes/default/images/scale.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/themes/default/images/sortable.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/themes/default/images/spacer.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/themes/default/images/sparator_v.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/themes/default/images/table-cell-align.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/themes/default/images/tangram-colorpicker.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/themes/default/images/toolbar_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/themes/default/images/unhighlighted.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/themes/default/images/upload.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/themes/default/images/videologo.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/themes/default/images/word.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/themes/default/images/wordpaste.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/third-party/snapscreen/UEditorSnapscreen.exe" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/third-party/video-js/font/vjs.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/third-party/video-js/font/vjs.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/third-party/video-js/font/vjs.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/third-party/video-js/video-js.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/third-party/webuploader/Uploader.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/third-party/zeroclipboard/ZeroClipboard.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/modules/backend/controllers/DashboardController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/modules/backend/views/dashboard/index.volt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/modules/backend/views/public/footer.volt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/modules/backend/views/public/header.volt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/modules/backend/views/public/seeUser.volt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/modules/backend/views/public/top.volt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/css/font-awesome.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/css/login.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/fonts/TaurusNormal.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/fonts/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/js/admin-scripts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/js/html5shiv.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/js/jquery-1.11.1.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/js/jquery-2.1.4.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/js/respond.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/js/selectivizr-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/summernote/lang/summernote-ar-AR.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/summernote/lang/summernote-ar-AR.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/summernote/lang/summernote-bg-BG.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/summernote/lang/summernote-bg-BG.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/summernote/lang/summernote-ca-ES.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/summernote/lang/summernote-ca-ES.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/summernote/lang/summernote-cs-CZ.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/summernote/lang/summernote-cs-CZ.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/summernote/lang/summernote-da-DK.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/summernote/lang/summernote-da-DK.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/summernote/lang/summernote-de-DE.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/summernote/lang/summernote-de-DE.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/summernote/lang/summernote-es-ES.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/summernote/lang/summernote-es-ES.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/summernote/lang/summernote-es-EU.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/summernote/lang/summernote-es-EU.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/summernote/lang/summernote-fa-IR.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/summernote/lang/summernote-fa-IR.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/summernote/lang/summernote-fi-FI.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/summernote/lang/summernote-fi-FI.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/summernote/lang/summernote-fr-FR.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/summernote/lang/summernote-fr-FR.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/summernote/lang/summernote-he-IL.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/summernote/lang/summernote-he-IL.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/summernote/lang/summernote-hu-HU.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/summernote/lang/summernote-hu-HU.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/summernote/lang/summernote-id-ID.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/summernote/lang/summernote-id-ID.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/summernote/lang/summernote-it-IT.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/summernote/lang/summernote-it-IT.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/summernote/lang/summernote-ja-JP.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/summernote/lang/summernote-ja-JP.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/summernote/lang/summernote-ko-KR.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/summernote/lang/summernote-ko-KR.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/summernote/lang/summernote-lt-LT.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/summernote/lang/summernote-lt-LT.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/summernote/lang/summernote-nb-NO.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/summernote/lang/summernote-nb-NO.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/summernote/lang/summernote-nl-NL.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/summernote/lang/summernote-nl-NL.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/summernote/lang/summernote-pl-PL.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/summernote/lang/summernote-pl-PL.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/summernote/lang/summernote-pt-BR.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/summernote/lang/summernote-pt-BR.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/summernote/lang/summernote-pt-PT.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/summernote/lang/summernote-pt-PT.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/summernote/lang/summernote-ro-RO.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/summernote/lang/summernote-ro-RO.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/summernote/lang/summernote-ru-RU.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/summernote/lang/summernote-ru-RU.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/summernote/lang/summernote-sk-SK.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/summernote/lang/summernote-sk-SK.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/summernote/lang/summernote-sl-SI.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/summernote/lang/summernote-sl-SI.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/summernote/lang/summernote-sr-RS-Latin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/summernote/lang/summernote-sr-RS-Latin.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/summernote/lang/summernote-sr-RS.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/summernote/lang/summernote-sr-RS.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/summernote/lang/summernote-sv-SE.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/summernote/lang/summernote-sv-SE.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/summernote/lang/summernote-th-TH.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/summernote/lang/summernote-th-TH.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/summernote/lang/summernote-tr-TR.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/summernote/lang/summernote-tr-TR.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/summernote/lang/summernote-uk-UA.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/summernote/lang/summernote-uk-UA.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/summernote/lang/summernote-vi-VN.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/summernote/lang/summernote-vi-VN.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/summernote/lang/summernote-zh-CN.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/summernote/lang/summernote-zh-CN.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/summernote/lang/summernote-zh-TW.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/summernote/lang/summernote-zh-TW.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/summernote/summernote.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/summernote/summernote.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/summernote/summernote.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/anchor/anchor.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/attachment/attachment.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/attachment/attachment.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/attachment/attachment.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/background/background.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/background/background.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/background/background.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/charts/chart.config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/charts/charts.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/charts/charts.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/charts/charts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/emotion/emotion.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/emotion/emotion.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/emotion/emotion.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/gmap/gmap.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/help/help.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/help/help.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/help/help.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/image/image.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/image/image.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/image/image.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/insertframe/insertframe.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/internal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/link/link.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/map/map.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/map/show.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/music/music.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/music/music.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/music/music.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/preview/preview.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/scrawl/scrawl.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/scrawl/scrawl.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/scrawl/scrawl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/searchreplace/searchreplace.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/searchreplace/searchreplace.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/snapscreen/snapscreen.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/spechars/spechars.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/spechars/spechars.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/table/edittable.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/table/edittable.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/table/edittable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/table/edittd.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/table/edittip.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/template/config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/template/template.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/template/template.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/template/template.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/video/video.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/video/video.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/video/video.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/webapp/webapp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/wordimage/tangram.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/wordimage/wordimage.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/dialogs/wordimage/wordimage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/lang/en/en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/lang/zh-cn/zh-cn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/php/Uploader.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/php/action_crawler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/php/action_list.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/php/action_upload.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/php/config.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/php/controller.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/themes/default/css/ueditor.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/themes/default/css/ueditor.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/themes/default/dialogbase.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/themes/iframe.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/third-party/SyntaxHighlighter/shCore.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/third-party/SyntaxHighlighter/shCoreDefault.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/third-party/codemirror/codemirror.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/third-party/codemirror/codemirror.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/third-party/highcharts/adapters/mootools-adapter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/third-party/highcharts/adapters/mootools-adapter.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/third-party/highcharts/adapters/prototype-adapter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/third-party/highcharts/adapters/prototype-adapter.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/third-party/highcharts/adapters/standalone-framework.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/third-party/highcharts/adapters/standalone-framework.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/third-party/highcharts/highcharts-more.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/third-party/highcharts/highcharts-more.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/third-party/highcharts/highcharts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/third-party/highcharts/highcharts.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/third-party/highcharts/modules/annotations.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/third-party/highcharts/modules/annotations.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/third-party/highcharts/modules/canvas-tools.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/third-party/highcharts/modules/canvas-tools.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/third-party/highcharts/modules/data.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/third-party/highcharts/modules/data.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/third-party/highcharts/modules/drilldown.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/third-party/highcharts/modules/drilldown.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/third-party/highcharts/modules/exporting.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/third-party/highcharts/modules/exporting.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/third-party/highcharts/modules/funnel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/third-party/highcharts/modules/funnel.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/third-party/highcharts/modules/heatmap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/third-party/highcharts/modules/heatmap.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/third-party/highcharts/modules/map.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/third-party/highcharts/modules/map.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/third-party/highcharts/modules/no-data-to-display.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/third-party/highcharts/modules/no-data-to-display.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/third-party/highcharts/themes/dark-blue.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/third-party/highcharts/themes/dark-green.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/third-party/highcharts/themes/gray.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/third-party/highcharts/themes/grid.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/third-party/highcharts/themes/skies.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/third-party/jquery-1.10.2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/third-party/jquery-1.10.2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/third-party/jquery-1.10.2.min.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/third-party/video-js/font/vjs.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/third-party/video-js/video-js.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/third-party/video-js/video-js.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/third-party/video-js/video.dev.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/third-party/video-js/video.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/third-party/webuploader/webuploader.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/third-party/webuploader/webuploader.custom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/third-party/webuploader/webuploader.custom.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/third-party/webuploader/webuploader.flashonly.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/third-party/webuploader/webuploader.flashonly.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/third-party/webuploader/webuploader.html5only.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/third-party/webuploader/webuploader.html5only.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/third-party/webuploader/webuploader.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/third-party/webuploader/webuploader.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/third-party/webuploader/webuploader.withoutimage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/third-party/webuploader/webuploader.withoutimage.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/third-party/zeroclipboard/ZeroClipboard.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/third-party/zeroclipboard/ZeroClipboard.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/ueditor.all.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/ueditor.all.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/ueditor.config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/ueditor.parse.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/statics/admin/lib/ueditor/ueditor.parse.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/modules/backend/controllers/IndexController.php" afterPath="$PROJECT_DIR$/apps/modules/backend/controllers/IndexController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/modules/frontend/controllers/IndexController.php" afterPath="$PROJECT_DIR$/apps/modules/frontend/controllers/IndexController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/modules/backend/views/index.volt" afterPath="$PROJECT_DIR$/apps/modules/backend/views/index.volt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,7 +602,104 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.volt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/modules/backend/views/index.volt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.volt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/modules/backend/views/dashboard/index.volt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3105">
+              <caret line="135" column="6" lean-forward="false" selection-start-line="135" selection-start-column="6" selection-end-line="135" selection-end-column="6" />
+              <folding>
+                <element signature="n#style#0;n#span#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#footer#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#td#0;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#footer#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DashboardController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/apps/modules/backend/controllers/DashboardController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.volt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/modules/backend/views/public/footer.volt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="10" column="36" lean-forward="false" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IndexController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/modules/backend/controllers/IndexController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="19" column="47" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="33" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="seeUser.volt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/modules/backend/views/public/seeUser.volt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1472">
+              <caret line="64" column="24" lean-forward="true" selection-start-line="64" selection-start-column="24" selection-end-line="64" selection-end-column="24" />
+              <folding>
+                <element signature="e#406#413#1#HTML" expanded="true" />
+                <element signature="n#style#0;n#table#0;n#div#1;n#div#0;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="e#3184#3191#1#HTML" expanded="true" />
+                <element signature="n#style#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+                <element signature="e#5029#5036#1#HTML" expanded="true" />
+                <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+                <element signature="e#5711#5718#1#HTML" expanded="true" />
+                <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#div#0;n#div#3;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#0;n#div#3;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="top.volt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/modules/backend/views/public/top.volt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="8" column="39" lean-forward="false" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.volt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/modules/backend/views/public/header.volt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -53,17 +735,20 @@
         <option value="$PROJECT_DIR$/apps/modules/backend/views/Test/test.volt" />
         <option value="$PROJECT_DIR$/apps/modules/backend/controllers/TestController.php" />
         <option value="$PROJECT_DIR$/apps/modules/backend/views/public/right_sidebar.volt" />
-        <option value="$PROJECT_DIR$/apps/modules/backend/views/public/top.volt" />
         <option value="$PROJECT_DIR$/apps/modules/backend/views/public/left_sidebar.volt" />
         <option value="$PROJECT_DIR$/apps/modules/backend/views/Index/index.volt" />
         <option value="$PROJECT_DIR$/apps/modules/frontend/FrontendModule.php" />
         <option value="$PROJECT_DIR$/apps/modules/frontend/controllers/IndexController.php" />
         <option value="$PROJECT_DIR$/apps/modules/backend/controllers/IndexController.php" />
         <option value="$PROJECT_DIR$/apps/config/config.php" />
-        <option value="$PROJECT_DIR$/apps/modules/backend/views/public/footer.volt" />
         <option value="$PROJECT_DIR$/apps/modules/backend/views/public/jsScript.volt" />
         <option value="$PROJECT_DIR$/apps/modules/backend/views/public/header.volt" />
+        <option value="$PROJECT_DIR$/apps/modules/backend/views/public/top.volt" />
+        <option value="$PROJECT_DIR$/apps/modules/backend/views/public/seeUser.volt" />
+        <option value="$PROJECT_DIR$/apps/modules/backend/views/public/footer.volt" />
         <option value="$PROJECT_DIR$/apps/modules/backend/views/index.volt" />
+        <option value="$PROJECT_DIR$/apps/modules/backend/views/dashboard/index.volt" />
+        <option value="$PROJECT_DIR$/apps/modules/backend/controllers/DashboardController.php" />
       </list>
     </option>
   </component>
@@ -131,13 +816,6 @@
               <item name="blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="blog" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="apps" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="cache" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="volt" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="apps" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -150,7 +828,45 @@
             <path>
               <item name="blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="blog" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="apps" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="backend" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="apps" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="backend" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="apps" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="backend" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="statics" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="statics" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="blog" type="b2602c69:ProjectViewProjectNode" />
@@ -212,7 +928,7 @@
       <workItem from="1509974522220" duration="616000" />
       <workItem from="1510015450810" duration="801000" />
       <workItem from="1510042364474" duration="1342000" />
-      <workItem from="1510050344058" duration="3965000" />
+      <workItem from="1510050344058" duration="8893000" />
     </task>
     <task id="LOCAL-00001" summary="添加入口文件，配置文件和注册命名空间">
       <created>1509634968450</created>
@@ -263,11 +979,18 @@
       <option name="project" value="LOCAL" />
       <updated>1509884261709</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="初始化">
+      <created>1510056184538</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1510056184539</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55505000" />
+    <option name="totallyTimeSpent" value="60433000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -275,8 +998,9 @@
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21449487" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32698414" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -288,7 +1012,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32786885" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -306,7 +1029,9 @@
     <MESSAGE value="后台首页视图" />
     <MESSAGE value="添加视图缓存目录" />
     <MESSAGE value="添加静态资源" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加静态资源" />
+    <MESSAGE value="初始化" />
+    <MESSAGE value="添加视图控制层" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加视图控制层" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -320,37 +1045,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/apps/cache/logs/1.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#693#740#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/config/loader.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="28" column="3" lean-forward="false" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/config/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="7" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
@@ -511,7 +1205,6 @@
     <entry file="file://$PROJECT_DIR$/apps/modules/backend/controllers/TestController.php" />
     <entry file="file://$PROJECT_DIR$/apps/modules/backend/views/Test/test.volt" />
     <entry file="file://$PROJECT_DIR$/apps/modules/backend/views/public/right_sidebar.volt" />
-    <entry file="file://$PROJECT_DIR$/apps/modules/backend/views/public/top.volt" />
     <entry file="file://$PROJECT_DIR$/public/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="966">
@@ -536,6 +1229,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -543,6 +1237,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -586,36 +1281,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/modules/backend/controllers/IndexController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="19" column="47" lean-forward="false" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
-          <folding>
-            <element signature="e#302#325#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/config/config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="53" column="50" lean-forward="true" selection-start-line="53" selection-start-column="50" selection-end-line="53" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/modules/backend/views/public/header.volt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="73" lean-forward="false" selection-start-line="10" selection-start-column="73" selection-end-line="10" selection-end-column="73" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/modules/backend/views/public/footer.volt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
           <folding />
         </state>
       </provider>
@@ -636,31 +1305,91 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/common.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="124" column="18" lean-forward="false" selection-start-line="124" selection-start-column="18" selection-end-line="124" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/modules/backend/views/public/top.volt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="39" lean-forward="false" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/modules/backend/views/public/header.volt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/modules/backend/views/public/footer.volt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="36" lean-forward="false" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/modules/backend/views/public/seeUser.volt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1472">
+          <caret line="64" column="24" lean-forward="true" selection-start-line="64" selection-start-column="24" selection-end-line="64" selection-end-column="24" />
+          <folding>
+            <element signature="e#406#413#1#HTML" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#1;n#div#0;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#3184#3191#1#HTML" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="e#5029#5036#1#HTML" expanded="true" />
+            <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="e#5711#5718#1#HTML" expanded="true" />
+            <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#div#0;n#div#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#0;n#div#3;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/apps/modules/backend/views/index.volt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="121" column="44" lean-forward="true" selection-start-line="121" selection-start-column="44" selection-end-line="121" selection-end-column="44" />
+        <state relative-caret-position="230">
+          <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/modules/backend/controllers/IndexController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="19" column="47" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="33" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/modules/backend/views/dashboard/index.volt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3105">
+          <caret line="135" column="6" lean-forward="false" selection-start-line="135" selection-start-column="6" selection-end-line="135" selection-end-column="6" />
           <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#8098#8103#0#HTML" expanded="true" />
-            <element signature="e#9049#9054#0#HTML" expanded="true" />
-            <element signature="e#10281#10286#0#HTML" expanded="true" />
-            <element signature="e#10748#10753#0#HTML" expanded="true" />
-            <element signature="e#11922#11927#0#HTML" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#2;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#2;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#74026#74033#0#HTML" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#footer#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#td#0;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#footer#0;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/modules/backend/controllers/DashboardController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
