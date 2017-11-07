@@ -17,7 +17,7 @@ class IndexController extends Controller {
      * 控制面板
      */
     public function indexAction(){
-        $this -> view -> pick('index/index');
+        //$this -> view -> pick('index/index');
     }
 
     /**

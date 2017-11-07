@@ -2,244 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d83af362-a30b-459c-8740-c16bc72499f7" name="Default" comment="后台首页视图">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/cache/volt/backend/d__wamp64_www_blog_apps_modules_backend_views_index_index.volt.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/cache/volt/backend/d__wamp64_www_blog_apps_modules_backend_views_public_header.volt.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/modules/backend/views/public/jsScript.volt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/modules/backend/views/public/left_sidebar.volt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/modules/backend/views/public/right_sidebar.volt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/modules/backend/views/public/small_chat.volt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/css/animate.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/css/demo/webuploader-demo.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/css/font-awesome.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/css/login.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/css/patterns/header-profile-skin-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/css/patterns/header-profile-skin-3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/css/patterns/header-profile.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/css/patterns/shattered.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/css/plugins/awesome-bootstrap-checkbox/awesome-bootstrap-checkbox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/css/plugins/blueimp/css/blueimp-gallery.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/css/plugins/blueimp/img/error.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/css/plugins/blueimp/img/error.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/css/plugins/blueimp/img/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/css/plugins/blueimp/img/play-pause.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/css/plugins/blueimp/img/play-pause.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/css/plugins/blueimp/img/video-play.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/css/plugins/blueimp/img/video-play.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/css/plugins/bootstrap-table/bootstrap-table.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/css/plugins/chosen/chosen-sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/css/plugins/chosen/chosen-sprite@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/css/plugins/chosen/chosen.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/css/plugins/clockpicker/clockpicker.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/css/plugins/codemirror/ambiance.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/css/plugins/codemirror/codemirror.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/css/plugins/colorpicker/css/bootstrap-colorpicker.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/css/plugins/colorpicker/img/bootstrap-colorpicker/alpha-horizontal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/css/plugins/colorpicker/img/bootstrap-colorpicker/alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/css/plugins/colorpicker/img/bootstrap-colorpicker/hue-horizontal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/css/plugins/colorpicker/img/bootstrap-colorpicker/hue.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/css/plugins/colorpicker/img/bootstrap-colorpicker/saturation.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/css/plugins/cropper/cropper.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/css/plugins/dataTables/dataTables.bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/css/plugins/datapicker/datepicker3.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/css/plugins/dropzone/basic.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/css/plugins/dropzone/dropzone.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/css/plugins/footable/fonts/footable.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/css/plugins/footable/fonts/footable.eot_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/css/plugins/footable/fonts/footable.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/css/plugins/footable/fonts/footable.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/css/plugins/footable/fonts/footable.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/css/plugins/footable/footable.core.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/css/plugins/fullcalendar/fullcalendar.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/css/plugins/fullcalendar/fullcalendar.print.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/css/plugins/iCheck/custom.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/css/plugins/iCheck/green.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/css/plugins/iCheck/green@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/css/plugins/images/sort_asc.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/css/plugins/images/sort_desc.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/css/plugins/images/sprite-skin-flat.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/css/plugins/images/spritemap.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/css/plugins/images/spritemap@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/css/plugins/ionRangeSlider/ion.rangeSlider.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/css/plugins/ionRangeSlider/ion.rangeSlider.skinFlat.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/css/plugins/jasny/jasny-bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/css/plugins/jqgrid/ui.jqgrid.css_0820" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/css/plugins/jsTree/32px.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/css/plugins/jsTree/style.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/css/plugins/jsTree/throbber.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/css/plugins/markdown/bootstrap-markdown.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/css/plugins/morris/morris-0.4.3.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/css/plugins/nouslider/jquery.nouislider.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/css/plugins/plyr/plyr.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/css/plugins/simditor/simditor.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/css/plugins/steps/jquery.steps.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/css/plugins/summernote/summernote-bs3.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/css/plugins/summernote/summernote.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/css/plugins/sweetalert/sweetalert.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/css/plugins/switchery/switchery.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/css/plugins/toastr/toastr.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/css/plugins/treeview/bootstrap-treeview.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/css/plugins/webuploader/webuploader.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/css/style.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/fonts/fontawesome-webfont.eot_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/fonts/fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/fonts/fontawesome-webfont.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/fonts/glyphicons-halflings-regular.eot_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/img/a1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/img/a2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/img/a3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/img/a4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/img/a5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/img/a6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/img/a7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/img/a8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/img/a9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/img/bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/img/iconfont-logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/img/icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/img/index.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/img/index_4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/img/loading-upload.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/img/locked.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/img/login-background.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/img/p1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/img/p2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/img/p3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/img/p_big1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/img/p_big2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/img/p_big3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/img/profile.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/img/profile_big.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/img/profile_small.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/img/progress.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/img/qr_code.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/img/success.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/img/user.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/img/wenku_logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/contabs.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/content.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/demo/bootstrap-table-demo.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/demo/echarts-demo.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/demo/flot-demo.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/demo/form-advanced-demo.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/demo/form-validate-demo.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/demo/layer-demo.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/demo/morris-demo.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/demo/peity-demo.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/demo/rickshaw-demo.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/demo/sparkline-demo.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/demo/treeview-demo.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/demo/webuploader-demo.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/hplus.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/jquery-ui-1.10.4.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/jquery-ui.custom.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/plugins/beautifyhtml/beautifyhtml.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/plugins/blueimp/jquery.blueimp-gallery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/plugins/bootstrap-table/bootstrap-table-mobile.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/plugins/bootstrap-table/bootstrap-table.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/plugins/bootstrap-table/locale/bootstrap-table-zh-CN.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/plugins/chartJs/Chart.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/plugins/chosen/chosen.jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/plugins/clockpicker/clockpicker.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/plugins/codemirror/codemirror.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/plugins/codemirror/mode/javascript/javascript.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/plugins/colorpicker/bootstrap-colorpicker.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/plugins/cropper/cropper.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/plugins/dataTables/dataTables.bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/plugins/dataTables/jquery.dataTables.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/plugins/datapicker/bootstrap-datepicker.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/plugins/diff_match_patch/diff_match_patch.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/plugins/dropzone/dropzone.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/plugins/easypiechart/jquery.easypiechart.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/plugins/echarts/echarts-all.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/plugins/fancybox/blank.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/plugins/fancybox/fancybox_loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/plugins/fancybox/fancybox_loading@2x.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/plugins/fancybox/fancybox_overlay.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/plugins/fancybox/fancybox_sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/plugins/fancybox/fancybox_sprite@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/plugins/fancybox/jquery.fancybox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/plugins/fancybox/jquery.fancybox.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/plugins/flot/curvedLines.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/plugins/flot/jquery.flot.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/plugins/flot/jquery.flot.pie.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/plugins/flot/jquery.flot.resize.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/plugins/flot/jquery.flot.spline.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/plugins/flot/jquery.flot.symbol.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/plugins/flot/jquery.flot.tooltip.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/plugins/footable/footable.all.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/plugins/fullcalendar/fullcalendar.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/plugins/gritter/images/gritter-light.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/plugins/gritter/images/gritter.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/plugins/gritter/images/ie-spacer.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/plugins/gritter/jquery.gritter.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/plugins/gritter/jquery.gritter.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/plugins/iCheck/icheck.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/plugins/ionRangeSlider/ion.rangeSlider.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/plugins/jasny/jasny-bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/plugins/jeditable/jquery.jeditable.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/plugins/jqgrid/i18n/grid.locale-cn.js_0820" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/plugins/jqgrid/jquery.jqGrid.min.js_0820" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/plugins/jquery-ui/jquery-ui.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/plugins/jsKnob/jquery.knob.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/plugins/jsTree/jstree.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/plugins/jvectormap/jquery-jvectormap-world-mill-en.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/plugins/layer/laydate/laydate.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/plugins/layer/layer.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/plugins/layer/layim/layim.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/plugins/layer/layim/layim.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/plugins/layer/layim/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/plugins/markdown/bootstrap-markdown.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/plugins/markdown/bootstrap-markdown.zh.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/plugins/markdown/markdown.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/plugins/markdown/to-markdown.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/plugins/metisMenu/jquery.metisMenu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/plugins/morris/morris.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/plugins/morris/raphael-2.1.0.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/plugins/nestable/jquery.nestable.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/plugins/nouslider/jquery.nouislider.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/plugins/pace/pace.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/plugins/peity/jquery.peity.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/plugins/plyr/plyr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/plugins/preetyTextDiff/jquery.pretty-text-diff.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/plugins/prettyfile/bootstrap-prettyfile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/plugins/rickshaw/rickshaw.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/plugins/rickshaw/vendor/d3.v3.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/plugins/simditor/hotkeys.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/plugins/simditor/module.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/plugins/simditor/simditor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/plugins/simditor/uploader.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/plugins/slimscroll/jquery.slimscroll.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/plugins/sparkline/jquery.sparkline.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/plugins/staps/jquery.steps.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/plugins/suggest/bootstrap-suggest.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/plugins/summernote/summernote-zh-CN.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/plugins/summernote/summernote.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/plugins/sweetalert/sweetalert.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/plugins/switchery/switchery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/plugins/toastr/toastr.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/plugins/treeview/bootstrap-treeview.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/plugins/validate/jquery.validate.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/plugins/validate/messages_zh.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/plugins/webuploader/webuploader.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/js/welcome.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/plugins/fullavatareditor/scripts/fullAvatarEditor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/plugins/fullavatareditor/scripts/jQuery.Cookie.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/plugins/fullavatareditor/scripts/swfobject.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/statics/admin/plugins/fullavatareditor/scripts/test.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/config/config.php" afterPath="$PROJECT_DIR$/apps/config/config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/modules/backend/BackendModule.php" afterPath="$PROJECT_DIR$/apps/modules/backend/BackendModule.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/cache/volt/backend/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/cache/volt/frontend/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/modules/backend/views/index.volt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/modules/backend/controllers/IndexController.php" afterPath="$PROJECT_DIR$/apps/modules/backend/controllers/IndexController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/modules/frontend/controllers/IndexController.php" afterPath="$PROJECT_DIR$/apps/modules/frontend/controllers/IndexController.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -249,18 +17,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="config.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/apps/config/config.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
-              <caret line="62" column="17" lean-forward="false" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>模板之家</find>
+      <find>ts</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -280,13 +43,9 @@
         <option value="$PROJECT_DIR$/apps/common/core/PhalBaseVolt.php" />
         <option value="$PROJECT_DIR$/apps/common/hellper/PaginatorHelper.php" />
         <option value="$PROJECT_DIR$/apps/config/loader.php" />
-        <option value="$PROJECT_DIR$/apps/modules/frontend/FrontendModule.php" />
-        <option value="$PROJECT_DIR$/apps/modules/frontend/controllers/IndexController.php" />
         <option value="$PROJECT_DIR$/apps/modules/backend/controllers/BaseController.php" />
-        <option value="$PROJECT_DIR$/apps/modules/backend/views/public/header.volt" />
         <option value="$PROJECT_DIR$/apps/modules/backend/views/public/small_chat.volt" />
         <option value="$PROJECT_DIR$/apps/modules/backend/views/Index/test.volt" />
-        <option value="$PROJECT_DIR$/apps/modules/backend/controllers/IndexController.php" />
         <option value="$PROJECT_DIR$/apps/modules/backend/BackendModule.php" />
         <option value="$PROJECT_DIR$/apps/config/routes.php" />
         <option value="$PROJECT_DIR$/public/index.php" />
@@ -294,12 +53,17 @@
         <option value="$PROJECT_DIR$/apps/modules/backend/views/Test/test.volt" />
         <option value="$PROJECT_DIR$/apps/modules/backend/controllers/TestController.php" />
         <option value="$PROJECT_DIR$/apps/modules/backend/views/public/right_sidebar.volt" />
-        <option value="$PROJECT_DIR$/apps/modules/backend/views/public/footer.volt" />
         <option value="$PROJECT_DIR$/apps/modules/backend/views/public/top.volt" />
         <option value="$PROJECT_DIR$/apps/modules/backend/views/public/left_sidebar.volt" />
-        <option value="$PROJECT_DIR$/apps/modules/backend/views/index.volt" />
         <option value="$PROJECT_DIR$/apps/modules/backend/views/Index/index.volt" />
+        <option value="$PROJECT_DIR$/apps/modules/frontend/FrontendModule.php" />
+        <option value="$PROJECT_DIR$/apps/modules/frontend/controllers/IndexController.php" />
+        <option value="$PROJECT_DIR$/apps/modules/backend/controllers/IndexController.php" />
         <option value="$PROJECT_DIR$/apps/config/config.php" />
+        <option value="$PROJECT_DIR$/apps/modules/backend/views/public/footer.volt" />
+        <option value="$PROJECT_DIR$/apps/modules/backend/views/public/jsScript.volt" />
+        <option value="$PROJECT_DIR$/apps/modules/backend/views/public/header.volt" />
+        <option value="$PROJECT_DIR$/apps/modules/backend/views/index.volt" />
       </list>
     </option>
   </component>
@@ -319,7 +83,7 @@
       <path value="D:\tools\phalcon-devtools\ide\stubs\Phalcon" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-88" />
     <option name="y" value="237" />
     <option name="width" value="1239" />
@@ -361,7 +125,14 @@
               <item name="blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="blog" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="apps" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="cache" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="apps" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="cache" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="volt" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="blog" type="b2602c69:ProjectViewProjectNode" />
@@ -375,33 +146,11 @@
               <item name="apps" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="backend" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="apps" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="backend" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="apps" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="backend" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="blog" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="statics" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="blog" type="b2602c69:ProjectViewProjectNode" />
@@ -462,6 +211,8 @@
       <workItem from="1509936441118" duration="8429000" />
       <workItem from="1509974522220" duration="616000" />
       <workItem from="1510015450810" duration="801000" />
+      <workItem from="1510042364474" duration="1342000" />
+      <workItem from="1510050344058" duration="3965000" />
     </task>
     <task id="LOCAL-00001" summary="添加入口文件，配置文件和注册命名空间">
       <created>1509634968450</created>
@@ -516,13 +267,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50198000" />
+    <option name="totallyTimeSpent" value="55505000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21449487" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21449487" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -569,44 +320,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="31" column="7" lean-forward="false" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
-          <folding>
-            <element signature="e#693#740#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/config/loader.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/config/services.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="34" lean-forward="false" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/common/core/PhalBaseLogger.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1265">
-          <caret line="55" column="73" lean-forward="true" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/config/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1334">
-          <caret line="64" column="17" lean-forward="false" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/cache/logs/1.log">
       <provider selected="true" editor-type-id="LogFileEditorProvider">
         <state relative-caret-position="0">
@@ -727,7 +440,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -753,32 +465,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/modules/backend/views/Index/index.volt.php" />
-    <entry file="file://$PROJECT_DIR$/apps/modules/backend/views/public/small_chat.volt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="79" column="33" lean-forward="true" selection-start-line="79" selection-start-column="33" selection-end-line="79" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/modules/backend/views/public/small_chat.volt" />
     <entry file="file://$PROJECT_DIR$/apps/modules/backend/controllers/BaseController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/modules/frontend/controllers/IndexController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/modules/frontend/FrontendModule.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7">
-          <caret line="51" column="70" lean-forward="true" selection-start-line="51" selection-start-column="70" selection-end-line="51" selection-end-column="70" />
         </state>
       </provider>
     </entry>
@@ -809,13 +500,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/config/services.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="29" column="39" lean-forward="true" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/config/loader.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
@@ -823,51 +507,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/config/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="16" column="26" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/modules/backend/views/Test/test.volt.php" />
-    <entry file="file://$PROJECT_DIR$/apps/modules/backend/controllers/IndexController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="33" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/modules/backend/controllers/TestController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/modules/backend/views/Test/test.volt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/modules/backend/views/public/right_sidebar.volt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/modules/backend/views/public/top.volt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="93" column="13" lean-forward="true" selection-start-line="93" selection-start-column="13" selection-end-line="93" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/modules/backend/controllers/TestController.php" />
+    <entry file="file://$PROJECT_DIR$/apps/modules/backend/views/Test/test.volt" />
+    <entry file="file://$PROJECT_DIR$/apps/modules/backend/views/public/right_sidebar.volt" />
+    <entry file="file://$PROJECT_DIR$/apps/modules/backend/views/public/top.volt" />
     <entry file="file://$PROJECT_DIR$/public/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="966">
@@ -878,61 +522,145 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/modules/backend/views/public/jsScript.volt">
+    <entry file="file://$PROJECT_DIR$/H后台主题UI框架V4.1价值988元/H后台主题UI框架V4.1价值988元/css/style.min.css" />
+    <entry file="file://$PROJECT_DIR$/apps/modules/backend/views/public/left_sidebar.volt" />
+    <entry file="file://$PROJECT_DIR$/apps/modules/backend/views/Index/index.volt" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="31" lean-forward="false" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        <state relative-caret-position="0">
+          <caret line="0" column="22" lean-forward="true" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/modules/backend/views/public/footer.volt">
+    <entry file="file://$PROJECT_DIR$/apps/cache/volt/frontend/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/H后台主题UI框架V4.1价值988元/H后台主题UI框架V4.1价值988元/css/style.min.css">
+    <entry file="file://$PROJECT_DIR$/apps/cache/volt/backend/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="0" column="54745" lean-forward="false" selection-start-line="0" selection-start-column="54745" selection-end-line="0" selection-end-column="54745" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/modules/backend/views/public/left_sidebar.volt">
+    <entry file="file://$PROJECT_DIR$/apps/config/services.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="957">
-          <caret line="363" column="57" lean-forward="false" selection-start-line="363" selection-start-column="57" selection-end-line="363" selection-end-column="57" />
+        <state relative-caret-position="-1603">
+          <caret line="29" column="39" lean-forward="true" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/modules/backend/views/Index/index.volt">
+    <entry file="file://$PROJECT_DIR$/apps/config/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="88" column="6" lean-forward="true" selection-start-line="88" selection-start-column="6" selection-end-line="88" selection-end-column="6" />
+        <state relative-caret-position="230">
+          <caret line="16" column="26" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/modules/backend/views/index.volt">
+    <entry file="file://$PROJECT_DIR$/apps/modules/frontend/controllers/IndexController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state relative-caret-position="230">
+          <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/modules/backend/views/public/header.volt">
+    <entry file="file://$PROJECT_DIR$/apps/modules/frontend/FrontendModule.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="70" />
+          <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mstp_115_enonadmin/dashboard-1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1882" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/modules/backend/controllers/IndexController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="19" column="47" lean-forward="false" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
+          <folding>
+            <element signature="e#302#325#0#PHP" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/config/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="62" column="17" lean-forward="false" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
+        <state relative-caret-position="190">
+          <caret line="53" column="50" lean-forward="true" selection-start-line="53" selection-start-column="50" selection-end-line="53" selection-end-column="50" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/modules/backend/views/public/header.volt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="73" lean-forward="false" selection-start-line="10" selection-start-column="73" selection-end-line="10" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/modules/backend/views/public/footer.volt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/modules/backend/views/public/jsScript.volt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="77" lean-forward="false" selection-start-line="10" selection-start-column="77" selection-end-line="10" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/statics/admin/assets/js/devexpress-web-14.1/ts/jquery.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="40" column="4" lean-forward="true" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/modules/backend/views/index.volt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="121" column="44" lean-forward="true" selection-start-line="121" selection-start-column="44" selection-end-line="121" selection-end-column="44" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#8098#8103#0#HTML" expanded="true" />
+            <element signature="e#9049#9054#0#HTML" expanded="true" />
+            <element signature="e#10281#10286#0#HTML" expanded="true" />
+            <element signature="e#10748#10753#0#HTML" expanded="true" />
+            <element signature="e#11922#11927#0#HTML" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#2;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#2;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#74026#74033#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
