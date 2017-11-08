@@ -9,6 +9,8 @@
 
 namespace Wuxc\Apps\Backend\Controllers;
 
+use \Wuxc\Apps\Library\ServerNeedle;
+
 class DashboardController extends BaseController {
 
     public function initialize()
@@ -20,7 +22,25 @@ class DashboardController extends BaseController {
      * 控制面板
      */
     public function indexAction(){
-
+        /** 获取服务器信息 */
+        $systemInfo = array(
+            'osName' => ServerNeedle::os_name(),
+            'osVersion' => ServerNeedle::os_version(),
+            'serverName' => ServerNeedle::server_host(),
+            'serverIp' => ServerNeedle::server_ip(),
+            'serverSoftware' => ServerNeedle::server_software(),
+            'serverLanguage' => ServerNeedle::accept_language(),
+            'serverPort' => ServerNeedle::server_port(),
+            'phpVersion' => ServerNeedle::php_version(),
+            'phpSapi' => ServerNeedle::php_sapi_name()
+        );
+        $this -> view ->setVars(
+            [
+                'systemInfo' => $systemInfo,
+                'appVersion' => $this -> config -> application -> version,
+            ]
+        );
+        $this -> view -> pick('dashboard/index');
     }
 
 }

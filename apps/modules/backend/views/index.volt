@@ -7,7 +7,10 @@
 <body class="user-select">
 <section class="container-fluid">
     {{ partial('public/top') }}
-    {{ content() }}
+    <div class="row">
+        {{ partial('public/left_sidebar') }}
+        {{ content() }}
+    </div>
 </section>
 {{ partial('public/seeUser') }}
 {{ partial('public/footer') }}
