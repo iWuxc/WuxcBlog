@@ -8,5 +8,5 @@
         <li class="list-group-item"><span>浏览器：</span>Chrome47</li>
     </ul>
 </div>
-<script src="{{ static_url('js/bootstrap.min.js') }}"></script>
-<script src="{{ static_url('js/admin-scripts.js') }}"></script>
+<script src="{{ static_url('js/bootstrap.min.js?_v=')~assetsVersion }}"></script>
+<script src="{{ static_url('js/admin-scripts.js?_v=')~assetsVersion }}"></script>

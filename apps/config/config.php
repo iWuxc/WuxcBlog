@@ -20,7 +20,7 @@ return new \Phalcon\Config(
 
         'application' => [
             //项目名称
-            'app_name'  =>  'WuxcBlog',
+            'app_name'  =>  'WuxcBlog后台管理系统',
             //版本号
             'version'   =>  '1.0',
             //根命名空间

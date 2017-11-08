@@ -9,10 +9,36 @@
 
 namespace Wuxc\Apps\Backend\Controllers;
 
-use Phalcon\Mvc\Controller;
+use Wuxc\Apps\Core\PhalBaseController;
 
-class BaseController extends Controller{
+class BaseController extends PhalBaseController {
+
+    public function initialize()
+    {
+        parent::initialize();
+        $this -> set_common_vars();
+    }
 
 
+
+    /**
+     * 设置公共参数
+     */
+    public function set_common_vars(){
+        $this -> view -> setVars([
+            'title' => $this -> config -> application -> app_name,
+            'userinfo' => $this -> session -> get('user'),
+            'assetsVersion' => strtotime(date("Y-m-d H", time()) . ':00:00')
+        ]);
+    }
+
+    /**
+     * 页面跳转
+     * @param null $url
+     */
+    protected function redirect($url = null){
+        empty($url) && $url = $this -> request -> getHeader('HTTP_REFERER');
+        $this -> response -> redirect($url);
+    }
 
 }

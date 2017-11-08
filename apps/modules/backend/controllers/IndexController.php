@@ -9,15 +9,13 @@
 
 namespace Wuxc\Apps\Backend\Controllers;
 
-use Phalcon\Mvc\Controller;
-
-class IndexController extends Controller {
+class IndexController extends BaseController {
 
     /**
      * 控制面板
      */
     public function indexAction(){
-        //$this -> view -> pick('index/index');
+        return $this -> redirect('dashboard/index');
     }
 
     /**
