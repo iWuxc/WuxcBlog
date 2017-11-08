@@ -1,12 +1,14 @@
 <aside class="col-sm-3 col-md-2 col-lg-2 sidebar">
     <ul class="nav nav-sidebar">
-        <li class="active"><a href="main.html">报告</a></li>
+        <li class="active"><a href="{{ url('dashboard/index') }}">控制面板</a></li>
     </ul>
     <ul class="nav nav-sidebar">
-        <li><a href="article.html">文章</a></li>
-        <li><a href="notice.html">公告</a></li>
-        <li><a href="comment.html">评论</a></li>
-        <li><a data-toggle="tooltip" data-placement="bottom" title="网站暂无留言功能">留言</a></li>
+        <li><a class="dropdown-toggle" id="userMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">内容管理</a>
+            <ul class="dropdown-menu" aria-labelledby="userMenu">
+                <li><a href="{{ url('articles/index') }}">文章管理</a></li>
+                <li><a href="{{ url('category/index') }}">栏目管理</a></li>
+            </ul>
+        </li>
     </ul>
     <ul class="nav nav-sidebar">
         <li><a href="category.html">栏目</a></li>

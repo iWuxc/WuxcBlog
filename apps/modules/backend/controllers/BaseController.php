@@ -10,6 +10,7 @@
 namespace Wuxc\Apps\Backend\Controllers;
 
 use Wuxc\Apps\Core\PhalBaseController;
+use Wuxc\Apps\Backend\Repositories\RepositoryFactory;
 
 class BaseController extends PhalBaseController {
 
@@ -19,7 +20,14 @@ class BaseController extends PhalBaseController {
         $this -> set_common_vars();
     }
 
-
+    /**
+     * 获取业务对象
+     * @param $repositoryName
+     * @return mixed
+     */
+    protected function get_repository($repositoryName){
+        return RepositoryFactory::get_repository($repositoryName);
+    }
 
     /**
      * 设置公共参数

@@ -10,11 +10,13 @@ return new \Phalcon\Config(
     [
 
         'database' => [
-            'host'     => 'localhost',
-            'username' => 'root',
-            'password' => '',
-            'dbname'   => 'blog',
-            'charset'  => 'utf8',
+            'db' => [
+                'host'     => 'localhost',
+                'username' => 'root',
+                'password' => '',
+                'dbname'   => 'blog',
+                'charset'  => 'utf8',
+            ],
             'prefix'   => '',
         ],
 

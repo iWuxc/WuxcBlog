@@ -59,7 +59,7 @@ $di -> set('profiler', function(){
  * 注册DB配置
  */
 $di -> setShared('db', function() use($di) {
-    $config = $this -> getConfig();
+    $config = $di -> get('config');
     $dbconfig = $config -> database -> db;
     $dbconfig = $dbconfig -> toArray();
     if(!is_array($dbconfig) || count($dbconfig) == 0){
@@ -68,11 +68,11 @@ $di -> setShared('db', function() use($di) {
     //注册DB操作
     $connection = new \Phalcon\Db\Adapter\Pdo\Mysql(
         [
-            'host'      => $config -> database -> host,
-            'username'  => $config -> database -> username,
-            'password'  => $config -> database -> password,
-            'dbname'    => $config -> database -> dbname,
-            'charset'   => $config -> database -> charset
+            'host'      => $config -> database -> db -> host,
+            'username'  => $config -> database -> db -> username,
+            'password'  => $config -> database -> db -> password,
+            'dbname'    => $config -> database -> db -> dbname,
+            'charset'   => $config -> database -> db -> charset
         ]
     );
     //分析底层sql性能， 并记录日志
@@ -81,7 +81,7 @@ $di -> setShared('db', function() use($di) {
     $eventsManager -> attach('db',function(Event $event, $connection) use($profiler, $config, $di){
         if($event -> getType() == 'beforeQuery'){
             //在sql发送大数据库前启动分析
-            $profiler -> startProfle($connection -> getSQLStatement());
+            $profiler -> startProfile($connection -> getSQLStatement());
         }
         if($event -> getType() == 'afterQuery'){
             //在sql执行完毕后停止分析
@@ -93,7 +93,7 @@ $di -> setShared('db', function() use($di) {
             (is_array($params) && count($params)) && $params = json_encode($params);
             $executeTime = $profiler -> getTotalElapsedSeconds();
             //日志记录
-            $logger = \Wuxc\App\Core\PhalBaseLogger::getInstance();
+            $logger = \Wuxc\Apps\Core\PhalBaseLogger::getInstance();
             $logger -> write_log("{$sql} {$params} {$executeTime}", 'debug');
         }
     });

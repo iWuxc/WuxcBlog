@@ -2,7 +2,7 @@
 <meta name="renderer" content="webkit">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>异清轩博客管理系统</title>
+<title>Wuxc博客管理系统</title>
 <link rel="stylesheet" type="text/css" href="{{ static_url('css/bootstrap.min.css?_v=')~assetsVersion }}">
 <link rel="stylesheet" type="text/css" href="{{ static_url('css/style.css?_v=')~assetsVersion }}">
 <link rel="stylesheet" type="text/css" href="{{ static_url('css/font-awesome.min.css?_v=')~assetsVersion }}">
