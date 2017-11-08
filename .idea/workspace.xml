@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d83af362-a30b-459c-8740-c16bc72499f7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/common/library/ServerNeedle.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/modules/backend/views/public/left_sidebar.volt" />
+    <list default="true" id="d83af362-a30b-459c-8740-c16bc72499f7" name="Default" comment="调整视图结构和添加系统信息">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/common/library/ServerNeedle.php" afterPath="$PROJECT_DIR$/apps/common/library/ServerNeedle.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/modules/backend/controllers/DashboardController.php" afterPath="$PROJECT_DIR$/apps/modules/backend/controllers/DashboardController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/modules/backend/views/dashboard/index.volt" afterPath="$PROJECT_DIR$/apps/modules/backend/views/dashboard/index.volt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/modules/backend/views/index.volt" afterPath="$PROJECT_DIR$/apps/modules/backend/views/index.volt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,28 +16,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DashboardController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/modules/backend/controllers/DashboardController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="32" column="27" lean-forward="false" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
-              <folding>
-                <element signature="e#6#181#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.volt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/apps/modules/backend/views/dashboard/index.volt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="29" lean-forward="true" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.volt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/modules/backend/views/index.volt">
           <provider selected="true" editor-type-id="text-editor">
@@ -50,21 +26,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="left_sidebar.volt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/modules/backend/views/public/left_sidebar.volt">
+      <file leaf-file-name="DashboardController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/modules/backend/controllers/DashboardController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="46" lean-forward="true" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
-              <folding />
+            <state relative-caret-position="189">
+              <caret line="40" column="10" lean-forward="true" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
+              <folding>
+                <element signature="e#6#181#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ServerNeedle.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.volt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/modules/backend/views/dashboard/index.volt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="131">
+              <caret line="90" column="20" lean-forward="true" selection-start-line="90" selection-start-column="20" selection-end-line="90" selection-end-column="20" />
+              <folding>
+                <element signature="n#div#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServerNeedle.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/apps/common/library/ServerNeedle.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+            <state relative-caret-position="143">
+              <caret line="91" column="41" lean-forward="false" selection-start-line="91" selection-start-column="41" selection-end-line="91" selection-end-column="41" />
               <folding>
                 <element signature="e#288#350#0#PHP" expanded="false" />
                 <element signature="e#410#483#0#PHP" expanded="false" />
@@ -75,6 +66,12 @@
                 <element signature="e#1128#1211#0#PHP" expanded="false" />
                 <element signature="e#1270#1341#0#PHP" expanded="false" />
                 <element signature="e#1401#1490#0#PHP" expanded="false" />
+                <element signature="e#1611#3132#0#PHP" expanded="false" />
+                <element signature="e#3170#3266#0#PHP" expanded="false" />
+                <element signature="e#3304#3398#0#PHP" expanded="false" />
+                <element signature="e#3435#3521#0#PHP" expanded="false" />
+                <element signature="e#3598#3831#0#PHP" expanded="false" />
+                <element signature="e#3730#3825#0#PHP" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -128,11 +125,11 @@
         <option value="$PROJECT_DIR$/apps/modules/backend/repositories/PhalBaseController.php" />
         <option value="$PROJECT_DIR$/apps/common/core/PhalBaseController.php" />
         <option value="$PROJECT_DIR$/apps/modules/backend/controllers/BaseController.php" />
+        <option value="$PROJECT_DIR$/apps/modules/backend/views/index.volt" />
+        <option value="$PROJECT_DIR$/apps/modules/backend/views/public/left_sidebar.volt" />
         <option value="$PROJECT_DIR$/apps/common/library/ServerNeedle.php" />
         <option value="$PROJECT_DIR$/apps/modules/backend/controllers/DashboardController.php" />
         <option value="$PROJECT_DIR$/apps/modules/backend/views/dashboard/index.volt" />
-        <option value="$PROJECT_DIR$/apps/modules/backend/views/index.volt" />
-        <option value="$PROJECT_DIR$/apps/modules/backend/views/public/left_sidebar.volt" />
       </list>
     </option>
   </component>
@@ -153,8 +150,8 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="29" />
-    <option name="y" value="195" />
+    <option name="x" value="629" />
+    <option name="y" value="41" />
     <option name="width" value="1239" />
     <option name="height" value="585" />
   </component>
@@ -195,6 +192,13 @@
               <item name="blog" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="apps" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="common" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="apps" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="common" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="library" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="blog" type="b2602c69:ProjectViewProjectNode" />
@@ -303,7 +307,7 @@
       <workItem from="1510015450810" duration="801000" />
       <workItem from="1510042364474" duration="1342000" />
       <workItem from="1510050344058" duration="11800000" />
-      <workItem from="1510106440427" duration="6601000" />
+      <workItem from="1510106440427" duration="13020000" />
     </task>
     <task id="LOCAL-00001" summary="添加入口文件，配置文件和注册命名空间">
       <created>1509634968450</created>
@@ -382,11 +386,18 @@
       <option name="project" value="LOCAL" />
       <updated>1510108101077</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="调整视图结构和添加系统信息">
+      <created>1510122887232</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1510122887232</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69941000" />
+    <option name="totallyTimeSpent" value="76360000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -401,7 +412,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23938507" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1727672" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -420,6 +431,26 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1727672" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3251366" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -440,7 +471,8 @@
     <MESSAGE value="添加视图控制层和静态文件" />
     <MESSAGE value="修改网站logo" />
     <MESSAGE value="后台框架增加扩展" />
-    <option name="LAST_COMMIT_MESSAGE" value="后台框架增加扩展" />
+    <MESSAGE value="调整视图结构和添加系统信息" />
+    <option name="LAST_COMMIT_MESSAGE" value="调整视图结构和添加系统信息" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -617,6 +649,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="201">
           <caret line="124" column="18" lean-forward="false" selection-start-line="124" selection-start-column="18" selection-end-line="124" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -735,39 +768,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/common/library/ServerNeedle.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding>
-            <element signature="e#288#350#0#PHP" expanded="false" />
-            <element signature="e#410#483#0#PHP" expanded="false" />
-            <element signature="e#539#622#0#PHP" expanded="false" />
-            <element signature="e#678#759#0#PHP" expanded="false" />
-            <element signature="e#818#909#0#PHP" expanded="false" />
-            <element signature="e#978#1072#0#PHP" expanded="false" />
-            <element signature="e#1128#1211#0#PHP" expanded="false" />
-            <element signature="e#1270#1341#0#PHP" expanded="false" />
-            <element signature="e#1401#1490#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/modules/backend/views/public/left_sidebar.volt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="7" column="46" lean-forward="true" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/modules/backend/controllers/DashboardController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="32" column="27" lean-forward="false" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
-          <folding>
-            <element signature="e#6#181#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -779,11 +784,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/apps/modules/backend/controllers/DashboardController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="40" column="10" lean-forward="true" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
+          <folding>
+            <element signature="e#6#181#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/apps/modules/backend/views/dashboard/index.volt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="29" lean-forward="true" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
-          <folding />
+        <state relative-caret-position="131">
+          <caret line="90" column="20" lean-forward="true" selection-start-line="90" selection-start-column="20" selection-end-line="90" selection-end-column="20" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/common/library/ServerNeedle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="91" column="41" lean-forward="false" selection-start-line="91" selection-start-column="41" selection-end-line="91" selection-end-column="41" />
+          <folding>
+            <element signature="e#288#350#0#PHP" expanded="false" />
+            <element signature="e#410#483#0#PHP" expanded="false" />
+            <element signature="e#539#622#0#PHP" expanded="false" />
+            <element signature="e#678#759#0#PHP" expanded="false" />
+            <element signature="e#818#909#0#PHP" expanded="false" />
+            <element signature="e#978#1072#0#PHP" expanded="false" />
+            <element signature="e#1128#1211#0#PHP" expanded="false" />
+            <element signature="e#1270#1341#0#PHP" expanded="false" />
+            <element signature="e#1401#1490#0#PHP" expanded="false" />
+            <element signature="e#1611#3132#0#PHP" expanded="false" />
+            <element signature="e#3170#3266#0#PHP" expanded="false" />
+            <element signature="e#3304#3398#0#PHP" expanded="false" />
+            <element signature="e#3435#3521#0#PHP" expanded="false" />
+            <element signature="e#3598#3831#0#PHP" expanded="false" />
+            <element signature="e#3730#3825#0#PHP" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

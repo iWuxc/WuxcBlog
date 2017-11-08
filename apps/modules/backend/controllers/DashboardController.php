@@ -32,15 +32,26 @@ class DashboardController extends BaseController {
             'serverLanguage' => ServerNeedle::accept_language(),
             'serverPort' => ServerNeedle::server_port(),
             'phpVersion' => ServerNeedle::php_version(),
-            'phpSapi' => ServerNeedle::php_sapi_name()
+            'phpSapi' => ServerNeedle::php_sapi_name(),
+            'getBroswer' => ServerNeedle::get_broswer(),
+            'isUpload' => ServerNeedle::is_upload(),
+            'maxUploadSize' => ServerNeedle::max_upload_size(),
+            'postMaxSize' => ServerNeedle::post_max_size(),
+            'getCode' =>ServerNeedle::getcode()
         );
+
         $this -> view ->setVars(
             [
                 'systemInfo' => $systemInfo,
                 'appVersion' => $this -> config -> application -> version,
+                'currentTime' => date('Y-m-d H:i:s')
             ]
         );
         $this -> view -> pick('dashboard/index');
     }
 
+    public function aaAction(){
+        echo PHP_EOL;
+        return false;
+    }
 }

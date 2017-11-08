@@ -35,40 +35,40 @@
             </thead>
             <tbody>
             <tr>
-                <td>管理员个数:</td>
-                <td>2 人</td>
+                <td>团队成员:</td>
+                <td><a href="http://www.wuxc.com" target="_blank">Wuxc</a></td>
                 <td>服务器软件:</td>
-                <td>Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9</td>
+                <td>{{ systemInfo['serverSoftware'] }}</td>
             </tr>
             <tr>
                 <td>浏览器:</td>
-                <td>Chrome47</td>
+                <td>{{ systemInfo['getBroswer'] }}</td>
                 <td>PHP版本:</td>
-                <td>5.6.1</td>
+                <td>{{ systemInfo['phpVersion'] }}</td>
             </tr>
             <tr>
                 <td>操作系统:</td>
-                <td>Windows 10</td>
+                <td>{{ systemInfo['osName'] }} 内核版本: {{ systemInfo['osVersion'] }}</td>
                 <td>PHP运行方式:</td>
-                <td>CGI-FCGI</td>
+                <td>{{ systemInfo['phpSapi'] }}</td>
             </tr>
             <tr>
-                <td>登录者IP:</td>
-                <td>::1:55570</td>
-                <td>MYSQL版本:</td>
-                <td>5.5.40</td>
+                <td>域名/IP地址:</td>
+                <td>{{ systemInfo['serverName'] }}({{ systemInfo['serverIp'] }})</td>
+                <td>服务器语言:</td>
+                <td>{{ systemInfo['serverLanguage'] }}</td>
             </tr>
             <tr>
                 <td>程序版本:</td>
-                <td class="version">YlsatCMS v 1.0 <font size="-6" color="#BBB">(20160108160215)</font></td>
+                <td class="version">WuxcBlog v {{ appVersion }} <font size="-6" color="#BBB">(20160108160215)</font></td>
                 <td>上传文件:</td>
-                <td>可以 <font size="-6" color="#BBB">(最大文件：2M ，表单：8M )</font></td>
+                <td>{{ systemInfo['isUpload'] }} <font size="-6" color="#BBB">(最大文件：{{ systemInfo['maxUploadSize'] }} ，表单：{{  systemInfo['postMaxSize'] }} )</font></td>
             </tr>
             <tr>
                 <td>程序编码:</td>
-                <td>UTF-8</td>
+                <td>{{ systemInfo['getCode'] }}</td>
                 <td>当前时间:</td>
-                <td>2016-01-08 15:50:30</td>
+                <td id="startTime"></td>
             </tr>
             </tbody>
             <tfoot>
@@ -92,3 +92,26 @@
         </div>
     </footer>
 </div>
+<script>
+    window.onload = function(){
+        setInterval(timeStart, 1000);
+    }
+    function timeStart(){
+        var today = new Date();
+        var year = today.getFullYear();
+        var month = today.getMonth()+1;
+        var day = today.getDate();
+        var hours = today.getHours();
+        var minutes = today.getMinutes();
+        var seconds = today.getSeconds();
+        month = month < 10 ? "0"+month : month;
+        day = day < 10 ? "0"+day : day;
+        hours = hours < 10 ? "0"+hours : hours;
+        minutes = minutes < 10 ? "0"+minutes : minutes;
+        seconds = seconds < 10 ? "0"+seconds : seconds;
+        //将时间变成字符串
+        var str = year+"年"+month+"月"+day+"日 "+hours+":"+minutes+":"+seconds;
+        var obj = document.getElementById("startTime");
+        obj.innerHTML = str;
+    }
+</script>
