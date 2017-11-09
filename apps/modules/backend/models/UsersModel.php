@@ -31,7 +31,7 @@ class UsersModel extends BaseModel {
             throw new \Exception('参数错误');
         }
         $params = array(
-            'condition' => 'username = :username:',
+            'conditions' => 'username = :username:',
             'bind' => array(
                 'username' => $username,
             ),

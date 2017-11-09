@@ -55,7 +55,7 @@ class Users extends BaseRepository{
      * @throws \Exception
      */
     public function detail($username, array $ext=array()){
-        $user = $this -> get_model('UserModel') -> detail($username, $ext);
+        $user = $this -> get_model('UsersModel') -> detail($username, $ext);
         if(!$user -> uid){
             throw new \Exception('获取用户信息失败');
         }

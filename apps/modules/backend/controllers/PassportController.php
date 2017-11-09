@@ -9,6 +9,7 @@
 
 namespace Wuxc\Apps\Backend\Controllers;
 
+use Wuxc\Apps\Backend\Models\UsersModel;
 use Wuxc\Apps\Backend\Repositories\RepositoryFactory;
 
 class PassportController extends BaseController{
@@ -40,7 +41,6 @@ class PassportController extends BaseController{
 
             /** 进行登录处理 */
             RepositoryFactory::get_repository('Users') -> login($username, $password);
-
             return $this -> response ->redirect('dashboard/index');
         }catch(\Exception $e){
             $this -> write_exception_log($e);
@@ -48,5 +48,4 @@ class PassportController extends BaseController{
             $this -> response -> redirect('passport/index');
         }
     }
-
 }

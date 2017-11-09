@@ -20,6 +20,13 @@ class BaseController extends PhalBaseController {
         $this -> set_common_vars();
     }
 
+    public function login_check(){
+        if(!RepositoryFactory::get_repository('Users') -> login_check()){
+            $this -> redirect('passport/index');
+        }
+        return true;
+    }
+
     /**
      * 获取业务对象
      * @param $repositoryName
