@@ -50,8 +50,4 @@ class DashboardController extends BaseController {
         $this -> view -> pick('dashboard/index');
     }
 
-    public function aaAction(){
-        echo PHP_EOL;
-        return false;
-    }
 }

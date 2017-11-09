@@ -9,6 +9,8 @@
 
 namespace Wuxc\Apps\Backend\Controllers;
 
+use Wuxc\Apps\Backend\Repositories\RepositoryFactory;
+
 class PassportController extends BaseController{
 
     public function initialize()
@@ -25,7 +27,26 @@ class PassportController extends BaseController{
             ]
         );
         $this -> view -> setMainView('passport/login');
+    }
 
+    public function loginAction(){
+        try{
+            if($this -> request -> isAjax() || !$this -> request -> isPost()){
+                throw new \Exception('非法请求');
+            }
+            $username = $this -> request -> getPost('username', 'trim');
+            $password = $this -> request -> getPost('userpwd', 'trim');
+            /** 添加验证规则 */
+
+            /** 进行登录处理 */
+            RepositoryFactory::get_repository('Users') -> login($username, $password);
+
+            return $this -> response ->redirect('dashboard/index');
+        }catch(\Exception $e){
+            $this -> write_exception_log($e);
+            $this -> flashSession -> error($e -> getMessage());
+            $this -> response -> redirect('passport/index');
+        }
     }
 
 }

@@ -26,7 +26,8 @@
 <body class="user-select">
 <div class="container">
     <div class="siteIcon">
-        <img src="{{ static_url('images/icon/icon.png') }}" alt="" data-toggle="tooltip" data-placement="top" title="欢迎使用Wuxc博客管理系统" draggable="false" /></div>
+        <img src="{{ static_url('images/icon/icon.png') }}" alt="" data-toggle="tooltip" data-placement="top" title="欢迎使用Wuxc博客管理系统" draggable="false" />
+    </div>
     <form action="{{ url('passport/login') }}" method="post" autocomplete="off" class="form-signin">
         <h2 class="form-signin-heading">管理员登录</h2>
         <label for="userName" class="sr-only">用户名</label>
