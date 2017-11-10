@@ -12,10 +12,10 @@ $loader = new \Phalcon\Loader();
  * Register Namespaces
  */
 $loader->registerNamespaces([
-    'Wuxc\\Apps\\Plugins'  => APP_DIR . '/common/plugins/',
-    'Wuxc\\Apps\\Library'  => APP_DIR . '/common/library/',
-    'Wuxc\\Apps\\Core'     => APP_DIR . '/common/core/',
-    'Wuxc\\Apps\\Helpers'  => APP_DIR . '/common/helper/',
+    'Wuxc\\Apps\\Plugins'  => APP_DIR . '/system/plugins/',
+    'Wuxc\\Apps\\Library'  => APP_DIR . '/system/library/',
+    'Wuxc\\Apps\\Core'     => APP_DIR . '/system/core/',
+    'Wuxc\\Apps\\Helpers'  => APP_DIR . '/system/helper/',
 
     'Wuxc\\Apps\\Frontend\\Controllers'     =>  APP_DIR . '/modules/frontend/controllers',
     'Wuxc\\Apps\\Frontend\\Models'          =>  APP_DIR . '/modules/frontend/models',
