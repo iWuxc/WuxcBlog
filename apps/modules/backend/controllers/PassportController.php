@@ -31,6 +31,7 @@ class PassportController extends BaseController{
     }
 
     public function loginAction(){
+        $this -> login_check();
         try{
             if($this -> request -> isAjax() || !$this -> request -> isPost()){
                 throw new \Exception('非法请求');
@@ -38,7 +39,20 @@ class PassportController extends BaseController{
             $username = $this -> request -> getPost('username', 'trim');
             $password = $this -> request -> getPost('userpwd', 'trim');
             /** 添加验证规则 */
-
+            $this -> validator -> add_rule('username', 'required', '请输入用户名')
+                -> add_rule('username', 'alpha_dash', '用户名由4-20个英文字符、数字、下划线和横杠组成')
+                -> add_rule('username', 'min_length', '用户名由4-20个英文字符、数字、下划线和横杠组成', 4)
+                -> add_rule('username', 'max_length', '用户名由4-20个英文字符、数字、下划线和横杠组成', 20);
+            $this -> validator -> add_rule('password', 'required', '请输入密码')
+                -> add_rule('password', 'min_length', '密码由6-32个字符组成', 6)
+                -> add_rule('password', 'max_length', '密码由6-32个字符组成', 32);
+            /** 截获验证异常 */
+            $error = $this -> validator -> run(array('username'=>$username, 'password'=>$password));
+            if (!empty($error)){
+                $error = array_values($error);
+                $error = $error[0];
+                throw new \Exception($error['message'], $error['code']);
+            }
             /** 进行登录处理 */
             RepositoryFactory::get_repository('Users') -> login($username, $password);
             return $this -> response ->redirect('dashboard/index');

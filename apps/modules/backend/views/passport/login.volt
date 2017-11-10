@@ -41,6 +41,7 @@
     </div>
 </div>
 <script src="{{ static_url('js/bootstrap.min.js') }}"></script>
+<script src="{{ static_url('js/public.js?_v=')~assetsVersion }}"></script>
 <script>
     $('[data-toggle="tooltip"]').tooltip();
     window.oncontextmenu = function(){
@@ -59,5 +60,6 @@
         }
     });
 </script>
+{{ partial('public/alert') }}
 </body>
 </html>

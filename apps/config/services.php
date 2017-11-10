@@ -136,3 +136,11 @@ $di->set('flash', function () {
         'warning' => 'alert alert-warning'
     ]);
 });
+
+/**
+ * 注入自定义验证器
+ */
+$di -> setShared('validator', function() use($di){
+    $validator = new \Wuxc\Apps\Library\Validator($di);
+    return $validator;
+});

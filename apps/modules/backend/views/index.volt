@@ -5,6 +5,7 @@
 </head>
 
 <body class="user-select">
+{{ partial('public/alert') }}
 <section class="container-fluid">
     {{ partial('public/top') }}
     <div class="row">

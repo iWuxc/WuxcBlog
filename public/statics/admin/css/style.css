@@ -571,3 +571,12 @@ input[type=checkbox], input[type=radio] {
 	font-size:12px;
 	margin: 2px;
 }
+/*增加错误提示栏*/
+.alert-tips{
+	position:fixed;
+	top:0px;
+	width:100%;
+	z-index:1001;
+	text-align: center;
+	display:none;
+}

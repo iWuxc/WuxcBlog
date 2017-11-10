@@ -10,3 +10,4 @@
 </div>
 <script src="{{ static_url('js/bootstrap.min.js?_v=')~assetsVersion }}"></script>
 <script src="{{ static_url('js/admin-scripts.js?_v=')~assetsVersion }}"></script>
+<script src="{{ static_url('js/public.js?_v=')~assetsVersion }}"></script>
