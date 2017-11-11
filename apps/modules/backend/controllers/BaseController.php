@@ -18,6 +18,7 @@ class BaseController extends PhalBaseController {
     {
         parent::initialize();
         $this -> set_common_vars();
+        $this -> login_check();
     }
 
     public function login_check(){
@@ -50,6 +51,7 @@ class BaseController extends PhalBaseController {
     /**
      * 页面跳转
      * @param null $url
+     * @return null|string
      */
     protected function redirect($url = null){
         empty($url) && $url = $this -> request -> getHeader('HTTP_REFERER');

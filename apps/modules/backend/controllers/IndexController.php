@@ -10,7 +10,6 @@
 namespace Wuxc\Apps\Backend\Controllers;
 
 class IndexController extends BaseController {
-
     /**
      * 控制面板
      */
@@ -25,6 +24,10 @@ class IndexController extends BaseController {
         return $this -> response -> setHeader('status', '404 Not Found');
     }
 
+    /**
+     * 测试页面
+     * @return bool
+     */
     public function testAction(){
         $this -> validator -> add_rule('username', 'required', '请输入用户名')
             -> add_rule('username', 'alpha_dash', '用户名由4-20个英文字符、数字、下划线和横杠组成')
@@ -39,5 +42,4 @@ class IndexController extends BaseController {
         var_dump($a);
         return false;
     }
-
 }
