@@ -1,11 +1,10 @@
 <?php
-
 /**
  * 校验器
  * @category WuxcBlog
- * @copyright Copyright (c) 2016 WuxcBlog team (http://www.wuxceng.cn)
+ * @copyright Copyright (c) 2016 WuxcBlog team (http://www.iwuxc.cn)
  * @license GNU General Public License 2.0
- * @link www.wuxceng.cn
+ * @link www.iwuxc.com
  */
 
 namespace Wuxc\Apps\Library;
