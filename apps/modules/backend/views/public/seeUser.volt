@@ -1,7 +1,7 @@
 <!--个人信息模态框-->
 <div class="modal fade" id="seeUserInfo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
     <div class="modal-dialog" role="document">
-        <form action="" method="post">
+        <form action="{{ url('account/saveprofile') }}" method="post" id="saveprofile">
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
@@ -15,37 +15,39 @@
                         <tbody>
                         <tr>
                             <td wdith="20%">姓名:</td>
-                            <td width="80%"><input type="text" value="王雨" class="form-control" name="truename" maxlength="10" autocomplete="off" /></td>
+                            <td width="80%"><input type="text" value="{% if userinfo is not empty %}{{ userinfo['realname'] }}{% endif %}" class="form-control" name="realname" id="realname" maxlength="10" autocomplete="off" /></td>
                         </tr>
                         <tr>
                             <td wdith="20%">用户名:</td>
-                            <td width="80%"><input type="text" value="admin" class="form-control" name="username" maxlength="10" autocomplete="off" /></td>
+                            <td width="80%"><input type="text" value="{% if userinfo is not empty %}{{ userinfo['username'] }}{% endif %}" class="form-control" name="username" id="username" maxlength="10" autocomplete="off" /></td>
                         </tr>
                         <tr>
                             <td wdith="20%">电话:</td>
-                            <td width="80%"><input type="text" value="18538078281" class="form-control" name="usertel" maxlength="13" autocomplete="off" /></td>
+                            <td width="80%"><input type="text" value="{% if userinfo is not empty %}{{ userinfo['phone_number'] }}{% endif %}" class="form-control" name="phone_number" id="phone_number" maxlength="13" autocomplete="off" /></td>
                         </tr>
                         <tr>
                             <td wdith="20%">旧密码:</td>
-                            <td width="80%"><input type="password" class="form-control" name="old_password" maxlength="18" autocomplete="off" /></td>
+                            <td width="80%"><input type="password" class="form-control" name="old_password" id="old_password" maxlength="18" autocomplete="off" placeholder="输入当前密码" /></td>
                         </tr>
                         <tr>
                             <td wdith="20%">新密码:</td>
-                            <td width="80%"><input type="password" class="form-control" name="password" maxlength="18" autocomplete="off" /></td>
+                            <td width="80%"><input type="password" class="form-control" name="password" id="password" maxlength="18" autocomplete="off" placeholder="若不修改密码,请保持当前空白" /></td>
                         </tr>
                         <tr>
                             <td wdith="20%">确认密码:</td>
-                            <td width="80%"><input type="password" class="form-control" name="new_password" maxlength="18" autocomplete="off" /></td>
+                            <td width="80%"><input type="password" class="form-control" name="new_password" id="new_password" maxlength="18" autocomplete="off" /></td>
                         </tr>
                         </tbody>
                         <tfoot>
-                        <tr></tr>
+                        <tr>
+                            <td colspan="2" align="right"  style="color:#F00" id="notice_message">*注意:修改信息需要输入当前密码</td>
+                        </tr>
                         </tfoot>
                     </table>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
-                    <button type="submit" class="btn btn-primary">提交</button>
+                    <button type="submit" class="btn btn-primary" id="saveprofile-button">提交</button>
                 </div>
             </div>
         </form>
@@ -127,3 +129,57 @@
         </div>
     </div>
 </div>
+<script>
+    $('#saveprofile-button').on('click', function(){
+        var noticeMessage = $("#notice_message"); //获取信息提示框
+
+        var username = $.trim($('#username').val());
+        var usernamePattern = /^[\u4e00-\u9fa5\w-]{2,20}$/i;
+        if(!usernamePattern.test(username)){
+            noticeMessage.html('昵称由2-20个中英文字符、数字、下划线和横杠组成');
+            return false;
+        }
+
+        var phone = $.trim($('#phone_number').val());
+        var phonePattern = /^((13[0-9])|(14[5|7])|(15([0-3]|[5-9]))|(18[0,5-9]))\d{8}$/;
+        if(!phonePattern.test(phone)){
+
+            return false;
+        }
+
+        /** 若用户填写了密码, 则判断新旧密码都需要验证是否填写 */
+        var oldpwd = $.trim($('#old_password').val());
+        if(oldpwd == '' || oldpwd == false){
+            noticeMessage.html('请填写原始密码');
+            return false;
+        }
+        if(oldpwd.length < 6 || oldpwd.length > 20){
+            noticeMessage.html('密码有误!密码由6-20个字符组成!');
+            return false;
+        }
+        var newpwd = $.trim($('#password').val());
+        var confirmpwd = $.trim($('#new_password').val());
+        if((newpwd == '' || newpwd == false) && (confirmpwd == '' || confirmpwd == false)){
+            noticeMessage.html('*注意:修改信息需要输入当前密码');
+            $('#saveprofile').submit();
+        } else {
+            //如果新密码不为空,则进行判断
+            if(newpwd != '' && newpwd != ''){
+                if(newpwd.length < 6 || newpwd.length > 20){
+                    noticeMessage.html('密码由6-20个字符组成');
+                    return false;
+                }
+                if(newpwd != confirmpwd){
+                    noticeMessage.html('两次输入的新密码不一致');
+                    return false;
+                }
+                if(oldpwd == newpwd){
+                    noticeMessage.html('新密码不能与原始密码相同');
+                    return false;
+                }
+            }
+            noticeMessage.html('新密码不能与原始密码相同');
+            $('#saveprofile').submit('*注意:修改信息需要输入当前密码');
+        }
+    });
+</script>

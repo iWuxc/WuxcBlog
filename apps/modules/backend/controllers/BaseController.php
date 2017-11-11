@@ -17,12 +17,16 @@ class BaseController extends PhalBaseController {
     public function initialize()
     {
         parent::initialize();
-        $this -> set_common_vars();
         $this -> login_check();
+        $this -> set_common_vars();
     }
 
+    /**
+     * 登录检测
+     * @return bool
+     */
     public function login_check(){
-        if(!RepositoryFactory::get_repository('Users') -> login_check()){
+        if(!$this -> get_repository('Users') -> login_check()){
             $this -> redirect('passport/index');
         }
         return true;
