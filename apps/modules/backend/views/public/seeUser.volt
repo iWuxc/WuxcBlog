@@ -133,6 +133,12 @@
     $('#saveprofile-button').on('click', function(){
         var noticeMessage = $("#notice_message"); //获取信息提示框
 
+        var realname = $.trim($('#realname').val());
+        if(realname == '' || realname == false){
+            noticeMessage.html('姓名不能为空');
+            return false;
+        }
+
         var username = $.trim($('#username').val());
         var usernamePattern = /^[\u4e00-\u9fa5\w-]{2,20}$/i;
         if(!usernamePattern.test(username)){

@@ -40,7 +40,7 @@ class PhalBaseLogger{
         if(!empty($file)){
             $logFile = $file;
         }else{
-            $fileName = date('YmdH', time());
+            $fileName = date('Ymd', time());
             $systemConfig = Di::getDefault() -> get('config');
             $logPath = $systemConfig -> logger -> path;
             $logFile = "{$logPath}/{$fileName}.log";

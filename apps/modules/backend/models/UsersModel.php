@@ -46,4 +46,38 @@ class UsersModel extends BaseModel {
         }
         return $result;
     }
+
+    /**
+     * 自定义的update事件
+     * @param array $data
+     * @return array
+     */
+    protected function before_update(array $data){
+        if(empty($data['modify_time'])){
+            $data['modify_time'] = date('Y-m-d H:i:s');
+        }
+        return $data;
+    }
+
+    /**
+     * 更新个人数据
+     * @param array $data
+     * @param $uid
+     * @return mixed
+     * @throws \Exception
+     */
+    public function update_recond(array $data, $uid){
+        $uid = intval($uid);
+        if(count($data) == 0 || $uid <= 0){
+            throw new \Exception('参数错误');
+        }
+        $data = $this -> before_update($data);
+        $this -> uid = $uid; //关键: 没有此参数(主键),无法进行修改
+        $result = $this -> iupdate($data);
+        if(!$result){
+            throw new \Exception('更新失败');
+        }
+        $affectedRows = $this -> db -> affectedRows();
+        return $affectedRows;
+    }
 }
