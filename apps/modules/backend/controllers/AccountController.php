@@ -1,6 +1,6 @@
 <?php
 /**
- *
+ * 用户控制器
  * @category WuxcBlog
  * @copyright Copyright (c) 2016 WuxcBlog team (http://www.iwuxc.con)
  * @license GNU General Public License 2.0

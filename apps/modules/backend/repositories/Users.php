@@ -99,9 +99,11 @@ class Users extends BaseRepository{
             throw new \Exception('修改个人信息失败,请重新尝试更改!');
         }
         /** 修改成功之后刷新用户数据 */
-        /**
-         * 待开发中,马上解决的问题
-         */
+        //销毁session
+        $this -> getDI() -> get('session') -> remove('user');
+        $info = $this -> detail($udata['username']) -> toArray();
+        unset($info['password']);
+        $this -> getDI() -> get('session') -> set('user', $info);
         return true;
     }
 }
